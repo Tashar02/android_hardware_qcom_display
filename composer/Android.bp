@@ -60,8 +60,8 @@ cc_binary {
         "libdrm",
         "libbase",
         "libbinder_ndk",
-        "android.hardware.power-V2-ndk",
-        "pixel-power-ext-V1-ndk",
+        "android.hardware.power-ndk_shared",
+	"//hardware/google/interfaces:pixel-power-ext-V2-ndk",
     ],
     srcs: composer_srcs,
 
